@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Myriad Pro;
+
+
+    src: url("myriad-pro.otf");
+}
+
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+* {
+    font-family: Myriad Pro;
+}
+
+.logo img {
+    display: block;
+    margin: 60px auto 0 auto;
+    width: 220px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 30px auto;
+    width: 320px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 24px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.text-color {
+    color: #7F4699;
+    text-align: center;
+}
+
+.col-100 {
+    width: 270px;
+    margin: 0 auto;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    font-weight: bold;
+    color: #A7A1AC;
+    font-size: 12px;
+    top: 10px;
+}
+
+#crm {
+    padding-left: 45px;
+}
+
+#uf {
+    border-radius: 0;
+    padding-left: 40px; 
+}
+
+#crm,
+#uf {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    background: transparent;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ABA5B2;
+}
+
+#crm::placeholder,
+#crm,
+#uf {
+    font-size: 18px;
+    color: #BFBCC6;
+}
+
+#uf:focus,
+#crm:focus{
+    outline: none;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    color: #ffffff;
+    background-color: #9c83be;
+    color: #DCD4E9;
+    font-size: 18px;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+.icon {
+    width: 70px;
+}
+
+.row-top {
+    width: 50%;
+}
+
+.row-bottom {
+    width: 33.33%;
+    margin-top: 30px;
+}
+
+.row-top .icon-text {
+    margin: 10px 50px;
+}
+
+.row-bottom .icon-text {
+    margin: 10px 20px;
+}
+
+.icon-text {
+    color: #908999;
+    font-size: 12px;
+    line-height: 14px; 
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    ul {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .row-top,
+    .row-bottom {
+        width: initial;
+    }
+}

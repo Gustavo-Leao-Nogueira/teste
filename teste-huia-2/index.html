@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Max Doctor - Register</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="logo">
+            <img src="img/logo.png" alt="Max Doctor | A plataforma de compra direta do seu anestésico tópico">
+        </div>
+        <h1 class="text-color">A PLATAFORMA DE COMPRA DIRETA DO SEU ANESTÉSICO TÓPICO</h1>
+        
+        <form action="" method="POST"> 
+            <div class="col-100">
+                <input id="crm" type="text" placeholder="000.000-0" pattern="\d{3}\.\d{3}-\d" required>
+                <label for="crm">CRM</label>
+            </div>
+
+            <div class="col-100">
+                <select id="uf" name="states" required>
+                    <option value="" selected="selected">Selecionar</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="PR">PR</option>
+                </select>
+                <label for="uf">UF</label>
+            </div>
+
+            <button type="submit">CONTINUE</button>
+        </form>
+
+        <p class="description text-color">CANAL DE COMPRA EXCLUSIVO PARA CLASSE MÉDICA</p>
+
+        <ul>
+            <li class="row-top">
+                <img class="icon" src="img/cart.png" alt="Facilidade de compra">
+                <p class="icon-text">FACILIDADE <br> DE COMPRA</p>
+            </li><!--
+            --><li class="row-top">
+                <img class="icon" src="img/amount.png" alt="Quantidade não limitada">
+                <p class="icon-text">QUANTIDADE <br> NÃO LIMITADA</p>
+            </li><!--
+            --><li class="row-bottom">
+                <img class="icon" src="img/truck.png" alt="Frete grátis">
+                <p class="icon-text">FRETE GRÁTIS</p>
+            </li><!--
+            --><li class="row-bottom">
+                <img class="icon" src="img/bike.png" alt="Agilidade">
+                <p class="icon-text">AGILIDADE</p>
+            </li><!--
+            --><li class="row-bottom">
+                <img class="icon" src="img/sofa.png" alt="Comodidade">
+                <p class="icon-text">COMODIDADE</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
